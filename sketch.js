@@ -1,15 +1,15 @@
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(400, 300);
+    background(0);
 }
 
 function draw() {
-  background(200, 150,200);
-  quad(38, 31, 86, 20, 69, 63, 30, 76);
-  ellipse(10,010,10)
-  fill(100,300,500)
-line(0,50,400,300)
+  noStroke();
+  fill(400, 300, 100)
+
+  circle(mouseX, mouseY, 24);
+  
 }
- 
-  
-  
-  
+function mousePressed(){
+  background(0);
+}
